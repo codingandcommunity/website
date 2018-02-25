@@ -1,2 +1,2 @@
 # coding&&community website
-@ codingandcommunity.github.io/website
+@ https://codingandcommunity.github.io/website
