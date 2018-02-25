@@ -1,2 +1,2 @@
-# Coding&&Community website
-Dec 2017 
+# coding&&community website
+@ www.codingandcommunity.github.io/website
