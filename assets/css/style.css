@@ -145,27 +145,27 @@ a:focus {
   background-color: #00b3fe;
   border-color: #00b3fe;
 }
-
+/*
 .dmbutton:hover,
 .dmbutton:active,
 .dmbutton:focus{
 	color: #ffffff;
 	background-color: #222222;
 	border-color: #ffffff;
-}
+}*/
 .dmbutton {
 	background:rgba(0, 0, 0, 0);
-	border: 1px solid #ffffff;
+	border: 0px solid #ffffff;
 	color: #ffffff;
-	-webkit-border-radius: 2px;
-	border-radius: 2px;
+	/*-webkit-border-radius: 2px;
+	border-radius: 2px;*/
 	padding-top: 1.025rem;
 	padding-right: 2.25rem;
 	letter-spacing:0.85px;
 	padding-bottom: 1.0875rem;
 	padding-left: 2.25rem;
 	font-size: 1.55rem;
-	cursor: pointer;
+	/*cursor: pointer;*/
 	font-weight: normal;
 	line-height: normal;
 	margin: 0 0 1.25rem;
@@ -288,7 +288,7 @@ a:focus {
 
 /* Testimonials Wrap */
 #twrap {
-	background: url(../img/t-back.jpg) no-repeat center top;
+	background: url(../img/rpiB2.png) no-repeat center top;
 	margin-top: 0px;
 	padding-top:60px;
 	text-align:center;
@@ -457,4 +457,27 @@ csmall2 {
 .share i {
 	padding-right: 15px;
 	font-size: 18px;
+}
+
+/* Events page */
+.event-container {
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.text-only {
+	width: 100%;
+	height: 100%;
+}
+.text-and-pictures {
+	width: 47.5%;
+	float: left;
+	margin-top: auto;
+    margin-bottom: auto;
+}
+.carousel {
+    width: 47.5%;
+    height: 100%;
+    float: right;
+    
 }
