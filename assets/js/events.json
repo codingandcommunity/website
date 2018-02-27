@@ -1,0 +1,47 @@
+
+{
+  "events": [
+  {
+    "name": "Science Technology Entry Program (STEP) Classes Spring 2018",
+    "description": "",
+    "date": "Saturday mornings from January to May",
+    "location": "Rensselaer Polytechnic Institute",
+    "pictures": []
+  },
+  {
+    "name": "Black Family Tech Awareness Day",
+    "description": "",
+    "date": "Saturday, February 3, 2018",
+    "location": "Rensselaer Polytechnic Institute",
+    "pictures": []
+  },
+  {
+    "name": "STEP Regional Conference",
+    "description": "",
+    "date": "Friday, March 23, 2018",
+    "location": "Rensselaer Polytechnic Institute",
+    "pictures": []
+  }
+  {
+    "name": "CC Hacks - High school area Hackathon",
+    "description": "",
+    "date": "Saturday, April 21, 2018 ",
+    "location": "Rensselaer Polytechnic Institute",
+    "pictures": []
+  },
+  {
+    "name": "Ten80 Kids",
+    "description": "",
+    "date": "Saturday, April 28, 2018 ",
+    "location": "Rensselaer Polytechnic Institute",
+    "pictures": []
+  },
+  {
+    "name": "Science Technology Entry Program (STEP) Classes Fall 2017",
+    "description": "",
+    "date": "Saturday afternoons from September to December",
+    "location": "Rensselaer Polytechnic Institute",
+    "pictures": []
+  },
+  ]
+}
