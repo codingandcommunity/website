@@ -19,7 +19,7 @@ theme = "coding-and-community"
     work = "Work"
     testimonials = "Testimonials"
     services = "Services"
-    about = "About"
+    team = "Team"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -171,47 +171,130 @@ theme = "coding-and-community"
       icon = "icon-monitor"
 
   # About section
-  [params.about]
+  [params.team]
     enable = true
-    title = "About"
+    title = "Meet the Team"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-    [[params.about.item]]
-      name = "Jean Smith"
+    [[params.team.item]]
+      name = "Milena Gonzalez"
       position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
+      #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "memelena-min.JPG"
+      alt = "Milena Gonzalez"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
         ["icon-linkedin", "#"]
       ]
 
-    [[params.about.item]]
-      name = "Rob Smith"
+    [[params.team.item]]
+      name = "Grace Roller"
       position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
+      #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "grace-min.JPG"
+      alt = "Grace Roller"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
         ["icon-github", "#"]
       ]
 
-    [[params.about.item]]
-      name = "Larry Ben"
+    [[params.team.item]]
+      name = "Kelly Patel"
       position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
+      #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "kelpats-min.JPG"
+      alt = "Kelly Patel"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
         ["icon-dribbble", "#"]
       ]
 
+    [[params.team.item]]
+      name = "Matt Garber"
+      position = "Web Designer"
+      #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "matt-min.JPG"
+      alt = "Matt Garber"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+    [[params.team.item]]
+      name = "Ethan Graf"
+      position = "Web Designer"
+      #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "ethan-min.JPG"
+      alt = "Ethan Graf"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+    [[params.team.item]]
+      name = "Ramin Chowdhury"
+      position = "Web Designer"
+      #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "rambob-min.JPG"
+      alt = "Ramin Chowdhury"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+    [[params.team.item]]
+      name = "Zaire Johnson"
+      position = "Web Designer"
+      #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "zaire-min.JPG"
+      alt = "Zaire Johnson"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+    [[params.team.item]]
+      name = "Issac Kim"
+      position = "Web Designer"
+      #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "issac-min.JPG"
+      alt = "Issac Kim"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+    [[params.team.item]]
+      name = "Clarisse Baes"
+      position = "Web Designer"
+      #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "clarisse-min.JPG"
+      alt = "Clarisse Baes"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+    [[params.team.item]]
+      name = "Natalee Ryan"
+      position = "Web Designer"
+      #xdescription = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "natalee-min.JPG"
+      alt = "Natalee Ryan"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
   # Counters section
   [params.counters]
     enable = false
