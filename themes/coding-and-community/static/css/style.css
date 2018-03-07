@@ -966,6 +966,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   width: 100%;
   position: relative;
+  margin-top: 75px;
 }
 @media screen and (max-width: 992px) {
   .fh5co-person {
@@ -977,12 +978,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -60px;
   top: 0;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -100px;
   display: block;
   margin-bottom: 50px;
 }
 .fh5co-person figure img {
-  width: 120px;
+  width: 200px;
   border: 2px solid #f2f2f2;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -995,7 +996,7 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-person .fh5co-position {
   color: #b3b3b3;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: -15px;
 }
 
 .form-control {
@@ -1368,11 +1369,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row-bottom-padded-lg {
-  padding-bottom: 7em;
+  /* padding-bottom: 7em; */
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-lg {
-    padding-bottom: 2em;
+    /*padding-bottom: 2em;*/
   }
 }
 
@@ -1387,6 +1388,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .row-bottom-padded-sm {
   padding-bottom: 2em;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-sm {

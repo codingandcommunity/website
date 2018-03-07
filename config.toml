@@ -16,7 +16,7 @@ theme = "coding-and-community"
   [params.navigation]
     brand = "{coding&&community}"
     home = "Home"
-    work = "Work"
+    work = "Events"
     testimonials = "Testimonials"
     services = "Services"
     team = "Team"
@@ -41,7 +41,7 @@ theme = "coding-and-community"
   [params.hero]
     title = "<img src=https://codingandcommunity.github.io/website/assets/img/cclogo.png width=75%>"
     subtitle = '{coding&&community} is a club at <a href="https://rpi.edu">Rensselaer Polytechnic Institute</a> that teaches and informs students in the surrounding area about the importance of computer science.'
-    videoURL = "https://player.vimeo.com/external/174002648.hd.mp4?s=a93798103ef5b0363f17bd6f4b3dc04e54ce37b2&profile_id=119&oauth2_token_id=57447761"
+    videoURLs = ["https://player.vimeo.com/external/210752478.hd.mp4?s=4e87d060dc5b1a346bafd4678345393c2a767b6c&profile_id=119&oauth2_token_id=57447761","https://player.vimeo.com/external/174002648.hd.mp4?s=a93798103ef5b0363f17bd6f4b3dc04e54ce37b2&profile_id=119&oauth2_token_id=57447761"]
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -51,25 +51,25 @@ theme = "coding-and-community"
     title = "Goal"
     description = "Our goal is to close the disparities in educational opportunities, specifically computer science education, related to race/ethnicity, gender, and socioeconomic status. We aim to empower our students with the necessary tools and guidance to succeed in college, career, and civic responsibility."
     url = "#"
-    button = "Get In Touch"
+    #button = ""
     icon = "icon-bulb"
     img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Our Start"
+    description = "Our club began at Rensselaer Polytechnic Institute, located in Troy, New York, early 2017. We now work with local middle and high school students, orgnaizations and programs on campus, and companies in the surrounding area."
+    url = "#"
+    #button = ""
+    icon = "icon-rocket"
+    img = "img_10.jpg"
 
   [[params.intro.item]]
     title = "Who are we?"
     description = "We are a group of students at Rensselaer Polytechnic Institute dedicated to teaching computer science to underrepresented high school and middle school students in the surrounding area."
     url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
+    #button = ""
+    icon = "icon-users"
     img = "img_8.jpg"
-
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
 
   [params.intro.video]
     enable = false
@@ -82,44 +82,44 @@ theme = "coding-and-community"
   [params.work]
     enable = true
     title = "Events"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    description = "These are some of the things we're doing now and in the future!"
+    footertext = ''
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      img = ""
+      alt = ""
+      title = "CCHacks — Saturday, April 21, 2018"
+      subtitle = "Rensselaer Polytechnic Institute"
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = ""
+      alt = ""
+      title = "Science Technology Entry Program (STEP) Classes — Saturday mornings in January to May"
+      subtitle = "Rensselaer Polytechnic Institute"
 
     [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      img = ""
+      alt = ""
+      title = "Black Family Tech Awareness Day — Saturday, February 3, 2018"
+      subtitle = "Rensselaer Polytechnic Institute"
 
     [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+      img = ""
+      alt = ""
+      title = "STEP Regional Conference — Friday, March 23, 2018"
+      subtitle = "Albany Mariott"
 
     [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+      img = ""
+      alt = ""
+      title = "Ten80 Kids Workshop — Saturday, April 28, 2018"
+      subtitle = "Rensselaer Polytechnic Institute"
 
     [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      img = ""
+      alt = ""
+      title = "Exploring Computer Science at Exploring Engineering Day — Saturday, February 10, 2018"
+      subtitle = "Rensselaer Polytechnic Institute"
 
   # Testimonials section
   [params.testimonials]
@@ -174,7 +174,7 @@ theme = "coding-and-community"
   [params.team]
     enable = true
     title = "Meet the Team"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "The awesome individuals who make this {coding&&community} what it is!"
 
     [[params.team.item]]
       name = "Milena Gonzalez"
@@ -336,17 +336,16 @@ theme = "coding-and-community"
   # Contact section
   [params.contact]
     enable = true
-    map = false
-    form = false
+    map = true
+    form = "Or reach out here!"
     title = "Get in touch"
-    description = "Reach out to us for collaboration or for more information about what we do."
+    description = "Reach out to us for collaboration or for more information about what we do. We'd love to talk."
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-envelope", "Club Email — rpi.coding.community@gmail.com"],
+        ["icon-envelope", 'Club Secretary — Kelly Patel — patelk5@rpi.edu'],
+        ["icon-envelope", 'CCHacks Collaboration — Ethan Graf  — grafe@rpi.edu']
       ]
 
     name = "Name"
@@ -358,7 +357,7 @@ theme = "coding-and-community"
   # Footer section
   [params.footer]
     enable = true
-    #copyright =
+    copyright = "Check us out on social media too!"
     links = [
         ["icon-github", "https://github.com/codingandcommunity"],
         ["icon-facebook", "https://www.facebook.com/codingandcommunity/"],
