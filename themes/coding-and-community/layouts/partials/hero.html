@@ -4,9 +4,13 @@
 				<source src="" type="video/mp4"></source>
 				<!-- Pick a random video from the array of videoURLs -->
 				<script>
-					var videoURLs = {{.Site.Params.hero.videoURLs}};
-					var num = Math.floor((Math.random() * videoURLs.length));
-					document.querySelector("#video > source").src = videoURLs[num];
+					// I'm not about to make mobile users download 5MB background videos...
+					if (! /Mobi/.test(navigator.userAgent)) {
+						// If we reach the code below, we're not running on a mobile device
+						var videoURLs = {{.Site.Params.hero.videoURLs}};
+						var num = Math.floor((Math.random() * videoURLs.length));
+						document.querySelector("#video > source").src = videoURLs[num];
+					}
 				</script>
 			</video>
 	</div>

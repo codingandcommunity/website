@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "coding&&community"
+title = "{coding&&community}"
 languageCode = "en-us"
 theme = "coding-and-community"
 
