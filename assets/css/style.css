@@ -479,5 +479,130 @@ csmall2 {
     width: 47.5%;
     height: 100%;
     float: right;
-    
+}
+
+/***************************************************************************
+ * Hackathon Styles
+ **************************************************************************/
+#hackathon-header {
+	background: #00b3fe;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#hackathon-header h1 {
+  font-size: 48px;
+  text-align: center;
+  color: white;
+}
+#hackathon-header h4 {
+  text-align: center;
+  color: white;
+}
+
+.hackathon-container {
+  max-width: 800px;
+  text-align: center;
+}
+
+.hackathon-container p {
+  font-size: 20px;
+  color: #546E7A;
+  line-height: 150%;
+}
+
+.buzzwords {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.buzzword {
+  font-family: "Courier New";
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 28px;
+  border-bottom: 2pt solid #00B3FE;
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.section > p {
+  font-size: 18px !important;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info h6 {
+  font-size: 20px;
+  padding: 0px 16px;
+}
+
+.info > p {
+  line-height: 100%;
+}
+
+.section > table {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.section > table {
+  margin-top: 20px;
+}
+
+.section > table tr:not(:last-child) {
+  border-bottom: 2px solid #FF9800;
+}
+
+.section > table td:first-child {
+  border-right: 2px solid #FF9800;
+}
+
+.section > table td {
+  padding: 5px 8px;
+  font-size: 22px;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.faq {
+  padding: 20px;
+}
+
+@media screen and (min-width: 769px) { 
+  .faq-container .faq {
+      flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  .faq-container .faq {
+      flex-basis: 100%;
+  }
+}
+
+.faq h4 {
+  font-size: 24px;
 }
