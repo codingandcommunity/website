@@ -593,7 +593,10 @@ csmall2 {
 
 @media screen and (min-width: 769px) { 
   .faq-container .faq {
-      flex-basis: 50%;
+    flex-basis: 50%;
+  }
+  .prizes .prize {
+    flex-basis: 33%;
   }
 }
 
@@ -601,8 +604,49 @@ csmall2 {
   .faq-container .faq {
       flex-basis: 100%;
   }
+  .prizes .prize {
+    flex-basis: 100%;
+  }
+  .buzzwords .buzzword {
+    flex-basis: 100%;
+  }
 }
 
 .faq h4 {
-  font-size: 24px;
+  font-size: 22px;
+}
+
+#register {
+  margin-top: 32px;
+}
+
+.prizes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.prize {
+  padding: 20px;
+}
+
+.prize h4 {
+  font-size: 20px;
+}
+
+#guest {
+  margin: 32px 0px;
+  width: 50%;
+}
+
+
+#guest-div {
+  text-align: center;
+}
+
+#guest-blurb {
+  width: 50%;
+  text-align: center;
+  margin:  auto;
 }
