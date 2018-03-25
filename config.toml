@@ -6,8 +6,6 @@ theme = "coding-and-community"
 
 [params]
 
-  custom_css = ["css/custom1.css", "css/custom2.css"]
-
   # Meta
   author = ""
   description = ""
@@ -39,9 +37,9 @@ theme = "coding-and-community"
 
   # Hero section
   [params.hero]
-    title = "<img src=https://codingandcommunity.github.io/website/assets/img/cclogo.png width=75%>"
+    title = "<img src=images/cclogo.png width=75%>"
     subtitle = '{coding&&community} is a club at <a href="https://rpi.edu">Rensselaer Polytechnic Institute</a> that teaches and informs students in the surrounding area about the importance of computer science.'
-    videoURLs = ["https://player.vimeo.com/external/210752478.hd.mp4?s=4e87d060dc5b1a346bafd4678345393c2a767b6c&profile_id=119&oauth2_token_id=57447761","https://player.vimeo.com/external/174002648.hd.mp4?s=a93798103ef5b0363f17bd6f4b3dc04e54ce37b2&profile_id=119&oauth2_token_id=57447761"]
+    videoURLs = ["videos/video-1.mp4","videos/video-2.mp4"]
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -90,85 +88,91 @@ theme = "coding-and-community"
       alt = ""
       title = "CCHacks — Saturday, April 21, 2018"
       subtitle = "Rensselaer Polytechnic Institute"
+      subsubtitle = "CCHacks is a hackathon for high school students to be hosted by {coding&&community}. Students from the Capital Region will be able to work in teams on a variety of projects that accommodate all skill levels, emphasizing creativity and teamwork. This event would be great for any student interested in STEM fields or the tech industry! We are currently looking for corporate sponsors. Contact Ethan Graf (grafe@rpi.edu) if you would like to work with us!"
 
     [[params.work.row]]
-      img = ""
+      img = "event-photos/step1.jpg"
       alt = ""
       title = "Science Technology Entry Program (STEP) Classes — Saturday mornings in January to May"
       subtitle = "Rensselaer Polytechnic Institute"
+      subsubtitle = "This semester, {coding&&community} is offering two classes for STEP students. The first unit is HTML/CSS and Javascript. Students in this class are introduced to computer science and learn the basics of front-end web development. By the end of the Unit I course, each student will have compiled a portfolio of HTML/CSS projects, including a dynamic personal webpage, which they will host on Github pages. The second unit is more advanced Python and Javascript. Students focus more on programming logic and problem solving by working through small to medium projects. At the end, students will pick a final project, which can either be a Python program or a website that implements Javascript. With both groups, the instructors encourage students to try new things, ask for help when needed, and to help their peers. Transferable skills like presenting and public speaking, and typing are also a focus of this program."
 
     [[params.work.row]]
-      img = ""
+      img = "event-photos/bftad4_2018.jpg"
       alt = ""
       title = "Black Family Tech Awareness Day — Saturday, February 3, 2018"
       subtitle = "Rensselaer Polytechnic Institute"
+      subsubtitle = "We participated in this campus-wide event offered to local students and their parents to learn more about STEM. At our program, we gave a presentation about the amazing opportunities that computer science holds and why increasing diversity in this field is so important. We also hosted a short lesson introducing basic HTML and CSS. Participants, students and parents alike, made basic websites and were introduced to Github. Later in the day, participants were able to explore computer science through stations with more basic website development, Sonic Pi and CodeCombat."
 
     [[params.work.row]]
       img = ""
       alt = ""
       title = "STEP Regional Conference — Friday, March 23, 2018"
       subtitle = "Albany Mariott"
+      subsubtitle = "We will host an interactive workshop with multiple stations to introduce STEP students across New York State to the possibilities of computer science. This program will be styled similarly to that of Black Family Tech Awareness Day. There will be a series of stations exploring basic web development in HTML and various coding games and software like Sonic Pi and CodeCombat."
 
     [[params.work.row]]
       img = ""
       alt = ""
       title = "Ten80 Kids Workshop — Saturday, April 28, 2018"
       subtitle = "Rensselaer Polytechnic Institute"
+      subsubtitle = ""
 
     [[params.work.row]]
       img = ""
       alt = ""
       title = "Exploring Computer Science at Exploring Engineering Day — Saturday, February 10, 2018"
       subtitle = "Rensselaer Polytechnic Institute"
+      subsubtitle = "We participated in this campus-wide event hosted by the Society of Women Engineers at RPI offered to local elementary school students to learn more about engineering. For our session, we started by talking about some of the interdisciplinary fields that computer science can apply to. Then for the main acitivity, the students learned basic Python through CodeCombat."
 
-  # Testimonials section
-  [params.testimonials]
-    enable = false
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
-
-  # Services section
-  [params.services]
-    enable = false
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
-
-    [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
-
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-monitor"
+  # # Testimonials section
+  # [params.testimonials]
+  #   enable = false
+  #   title = "Testimonials"
+  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #
+  #   [[params.testimonials.item]]
+  #     quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+  #     person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  #     img = "person1.jpg"
+  #     alt = "Person1"
+  #
+  #   [[params.testimonials.item]]
+  #     quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+  #     person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  #     img = "person2.jpg"
+  #     alt = "Person2"
+  #
+  #   [[params.testimonials.item]]
+  #     quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+  #     person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  #     img = "person3.jpg"
+  #     alt = "Person3"
+  #
+  # # Services section
+  # [params.services]
+  #   enable = false
+  #   title = "Services"
+  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #
+  #   [[params.services.item]]
+  #     title = "Brand &amp; Strategy"
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  #     icon = "icon-anchor"
+  #
+  #   [[params.services.item]]
+  #     title = "Web &amp; Interface"
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  #     icon = "icon-layers2"
+  #   [[params.services.item]]
+  #     title = "Photo &amp; Video"
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  #     icon = "icon-video2"
+  #
+  #     [[params.services.item]]
+  #     title = "CMS &amp; eCommerce"
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  #     icon = "icon-monitor"
 
   # About section
   [params.team]
