@@ -19,6 +19,7 @@ theme = "coding-and-community"
     services = "Services"
     team = "Team"
     contact = "Contact"
+    hackathon = "Hackathon"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -51,7 +52,6 @@ theme = "coding-and-community"
     url = "#"
     #button = ""
     icon = "icon-bulb"
-    img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Our Start"
@@ -59,7 +59,6 @@ theme = "coding-and-community"
     url = "#"
     #button = ""
     icon = "icon-rocket"
-    img = "img_10.jpg"
 
   [[params.intro.item]]
     title = "Who are we?"
@@ -67,14 +66,12 @@ theme = "coding-and-community"
     url = "#"
     #button = ""
     icon = "icon-users"
-    img = "img_8.jpg"
 
   [params.intro.video]
     enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
-
 
   # Work section
   [params.work]
@@ -182,7 +179,7 @@ theme = "coding-and-community"
 
     [[params.team.item]]
       name = "Milena Gonzalez"
-      position = "Web Designer"
+      position = "President"
       #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "memelena-min.JPG"
       alt = "Milena Gonzalez"
@@ -194,7 +191,7 @@ theme = "coding-and-community"
 
     [[params.team.item]]
       name = "Grace Roller"
-      position = "Web Developer"
+      position = "Vice President"
       #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "grace-min.JPG"
       alt = "Grace Roller"
@@ -206,7 +203,7 @@ theme = "coding-and-community"
 
     [[params.team.item]]
       name = "Kelly Patel"
-      position = "Web Designer"
+      position = "Secretary"
       #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "kelpats-min.JPG"
       alt = "Kelly Patel"
@@ -218,7 +215,7 @@ theme = "coding-and-community"
 
     [[params.team.item]]
       name = "Matt Garber"
-      position = "Web Designer"
+      position = "Head of Curriculum Development"
       #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "matt-min.JPG"
       alt = "Matt Garber"
@@ -230,7 +227,7 @@ theme = "coding-and-community"
 
     [[params.team.item]]
       name = "Ethan Graf"
-      position = "Web Designer"
+      position = "CCHacks Chair"
       #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "ethan-min.JPG"
       alt = "Ethan Graf"
@@ -242,7 +239,7 @@ theme = "coding-and-community"
 
     [[params.team.item]]
       name = "Ramin Chowdhury"
-      position = "Web Designer"
+      position = "Director of Community Outreach"
       #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "rambob-min.JPG"
       alt = "Ramin Chowdhury"
@@ -254,7 +251,7 @@ theme = "coding-and-community"
 
     [[params.team.item]]
       name = "Zaire Johnson"
-      position = "Web Designer"
+      position = "Director of Events"
       #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "zaire-min.JPG"
       alt = "Zaire Johnson"
@@ -266,7 +263,7 @@ theme = "coding-and-community"
 
     [[params.team.item]]
       name = "Issac Kim"
-      position = "Web Designer"
+      position = "Freshman Representative"
       #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "issac-min.JPG"
       alt = "Issac Kim"
@@ -278,7 +275,7 @@ theme = "coding-and-community"
 
     [[params.team.item]]
       name = "Clarisse Baes"
-      position = "Web Designer"
+      position = "Head of Instructors"
       #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "clarisse-min.JPG"
       alt = "Clarisse Baes"
@@ -290,7 +287,7 @@ theme = "coding-and-community"
 
     [[params.team.item]]
       name = "Natalee Ryan"
-      position = "Web Designer"
+      position = "Social Media Chair"
       #xdescription = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "natalee-min.JPG"
       alt = "Natalee Ryan"
@@ -357,6 +354,8 @@ theme = "coding-and-community"
     phone = "Phone"
     message = "Message"
     button = "Send message"
+
+
 
   # Footer section
   [params.footer]

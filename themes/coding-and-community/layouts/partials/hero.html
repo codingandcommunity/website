@@ -1,18 +1,5 @@
 <section id="fh5co-home" data-section="home" data-stellar-background-ratio="0.5">
 	<div class="gradient">
-		<video preload="preload" id="video" autoplay muted loop="loop">
-				<source src="" type="video/mp4"></source>
-				<!-- Pick a random video from the array of videoURLs -->
-				<script>
-					// I'm not about to make mobile users download 5MB background videos...
-					if (! /Mobi/.test(navigator.userAgent)) {
-						// If we reach the code below, we're not running on a mobile device
-						var videoURLs = {{.Site.Params.hero.videoURLs}};
-						var num = Math.floor((Math.random() * videoURLs.length));
-						document.querySelector("#video > source").src = videoURLs[num];
-					}
-				</script>
-			</video>
 	</div>
 	<div class="container">
 		<div class="text-wrap">
