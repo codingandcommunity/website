@@ -19,7 +19,12 @@ theme = "coding-and-community"
     services = "Services"
     team = "Team"
     contact = "Contact"
-    hackathon = "Hackathon"
+
+    # prepended links
+    [[menu.postpend]]
+      url = "http://gohugo.io"
+      name = "Hackathon"
+      weight = 10
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -38,8 +43,8 @@ theme = "coding-and-community"
 
   # Hero section
   [params.hero]
-    title = "<img src=images/cclogo.png width=75%>"
-    subtitle = '{coding&&community} is a club at <a href="https://rpi.edu">Rensselaer Polytechnic Institute</a> that teaches and informs students in the surrounding area about the importance of computer science.'
+    title = "<img src='images/cclogo.png' width='75%'>"
+    subtitle = "{coding&&community} is a club at <a href='https://rpi.edu'>Rensselaer Polytechnic Institute</a> that teaches and informs students in the surrounding area about the importance of computer science."
     videoURLs = ["videos/video-1.mp4","videos/video-2.mp4"]
 
   # Intro section
@@ -68,7 +73,6 @@ theme = "coding-and-community"
     icon = "icon-users"
 
   [params.intro.video]
-    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
