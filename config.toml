@@ -25,6 +25,10 @@ theme = "coding-and-community"
       url = "http://gohugo.io"
       name = "Hackathon"
       weight = 10
+    [[menu.postpend]]
+      url = "http://gohugo.io"
+      name = "XTech"
+      weight = 10
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
