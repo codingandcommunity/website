@@ -97,7 +97,7 @@ a:focus {
 
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
+	font-weight: 600;
 }
 
 .navbar-header .navbar-brand {
@@ -247,8 +247,11 @@ a:focus {
 	padding-top: 60px;
 	margin-bottom: 60px;
 	display: block;
-	text-align: center
+	text-align: center;
+	
 }
+
+
 
 #portfoliowrap h3 {
 	margin-bottom: 25px;
@@ -257,10 +260,12 @@ a:focus {
 .portfolio {
 	padding:0 !important;
 	margin:0 !important;
+	/* margin: auto; */
 	display:block;
+	/* max-width: 80%; */
 }
 
-
+/* .portfolio-item {margin: auto !important; align-content: center !important;} */
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
 .portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
