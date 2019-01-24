@@ -96,8 +96,8 @@ a:focus {
 }
 
 .navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
+	font-family: 'Avenir', sans-serif;
+	font-weight: 100;
 }
 
 .navbar-header .navbar-brand {
@@ -667,4 +667,37 @@ csmall2 {
 #schedule {
 	font-size: 25px;
 	text-align: center;
+}
+
+/*
+ * Launchpad styles.
+ */
+
+.schedules {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.schedule-table {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.schedule-table {
+  margin-top: 20px;
+}
+
+
+.schedule-table tr:not(:last-child) {
+  border-bottom: 2px solid #FF9800;
+}
+
+.schedule-table td:first-child, th:first-child {
+  border-right: 2px solid #FF9800;
+}
+
+.schedule-table td, th {
+  padding: 5px 8px;
+  font-size: 18px;
 }
