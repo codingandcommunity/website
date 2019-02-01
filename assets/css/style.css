@@ -741,3 +741,26 @@ csmall2 {
     font-size: 18px;
 }
 
+/*
+ * CS Forum Styles
+ */
+.agenda {
+    text-align: left;
+    display: inline-block;
+}
+
+.agenda h4 {
+    color: #428BCA;
+}
+
+.agenda-list {
+    margin-left: 32px;
+    text-align: center;
+    display: inline-block;
+}
+
+.agenda-list li {
+    text-align: left;
+    font-size: 18px;
+}
+
